@@ -1,0 +1,20 @@
+"0","#install.packages(""flexdashboard"")
+install.packages(""tidyverse"")
+"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/pauloabmiranda/AppData/Local/R/win-library/4.2’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘sys’, ‘bit’, ‘ps’, ‘rematch’, ‘askpass’, ‘bit64’, ‘prettyunits’, ‘processx’, ‘backports’, ‘generics’, ‘assertthat’, ‘blob’, ‘DBI’, ‘tidyselect’, ‘vctrs’, ‘data.table’, ‘gtable’, ‘isoband’, ‘gargle’, ‘uuid’, ‘cellranger’, ‘curl’, ‘ids’, ‘rematch2’, ‘cpp11’, ‘pkgconfig’, ‘openssl’, ‘fansi’, ‘utf8’, ‘clipr’, ‘vroom’, ‘tzdb’, ‘progress’, ‘callr’, ‘selectr’, ‘broom’, ‘cli’, ‘dbplyr’, ‘dplyr’, ‘dtplyr’, ‘forcats’, ‘ggplot2’, ‘googledrive’, ‘googlesheets4’, ‘haven’, ‘hms’, ‘httr’, ‘lubridate’, ‘modelr’, ‘pillar’, ‘purrr’, ‘readr’, ‘readxl’, ‘reprex’, ‘rstudioapi’, ‘rvest’, ‘tibble’, ‘tidyr’, ‘xml2’
+
+"
+"1","
+"
+"1",""
+"1","  There are binary versions available but the source versions are later"
+"1",""
+"1",":
+"

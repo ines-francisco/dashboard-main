@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="lib/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="lib/jquery-3.5.1/jquery.min.js"></script>
+<script src="lib/proj4js-2.3.15/proj4.js"></script>
+<link href="lib/highcharts-9.3.1/css/motion.css" rel="stylesheet" />
+<script src="lib/highcharts-9.3.1/highcharts.js"></script>
+<script src="lib/highcharts-9.3.1/highcharts-3d.js"></script>
+<script src="lib/highcharts-9.3.1/highcharts-more.js"></script>
+<script src="lib/highcharts-9.3.1/modules/stock.js"></script>
+<script src="lib/highcharts-9.3.1/modules/map.js"></script>
+<script src="lib/highcharts-9.3.1/modules/data.js"></script>
+<script src="lib/highcharts-9.3.1/modules/exporting.js"></script>
+<script src="lib/highcharts-9.3.1/modules/offline-exporting.js"></script>
+<script src="lib/highcharts-9.3.1/modules/drilldown.js"></script>
+<script src="lib/highcharts-9.3.1/modules/item-series.js"></script>
+<script src="lib/highcharts-9.3.1/modules/overlapping-datalabels.js"></script>
+<script src="lib/highcharts-9.3.1/modules/annotations.js"></script>
+<script src="lib/highcharts-9.3.1/modules/export-data.js"></script>
+<script src="lib/highcharts-9.3.1/modules/funnel.js"></script>
+<script src="lib/highcharts-9.3.1/modules/heatmap.js"></script>
+<script src="lib/highcharts-9.3.1/modules/treemap.js"></script>
+<script src="lib/highcharts-9.3.1/modules/sankey.js"></script>
+<script src="lib/highcharts-9.3.1/modules/dependency-wheel.js"></script>
+<script src="lib/highcharts-9.3.1/modules/organization.js"></script>
+<script src="lib/highcharts-9.3.1/modules/solid-gauge.js"></script>
+<script src="lib/highcharts-9.3.1/modules/streamgraph.js"></script>
+<script src="lib/highcharts-9.3.1/modules/sunburst.js"></script>
+<script src="lib/highcharts-9.3.1/modules/vector.js"></script>
+<script src="lib/highcharts-9.3.1/modules/wordcloud.js"></script>
+<script src="lib/highcharts-9.3.1/modules/xrange.js"></script>
+<script src="lib/highcharts-9.3.1/modules/tilemap.js"></script>
+<script src="lib/highcharts-9.3.1/modules/venn.js"></script>
+<script src="lib/highcharts-9.3.1/modules/gantt.js"></script>
+<script src="lib/highcharts-9.3.1/modules/timeline.js"></script>
+<script src="lib/highcharts-9.3.1/modules/parallel-coordinates.js"></script>
+<script src="lib/highcharts-9.3.1/modules/bullet.js"></script>
+<script src="lib/highcharts-9.3.1/modules/coloraxis.js"></script>
+<script src="lib/highcharts-9.3.1/modules/dumbbell.js"></script>
+<script src="lib/highcharts-9.3.1/modules/lollipop.js"></script>
+<script src="lib/highcharts-9.3.1/modules/series-label.js"></script>
+<script src="lib/highcharts-9.3.1/plugins/motion.js"></script>
+<script src="lib/highcharts-9.3.1/custom/reset.js"></script>
+<script src="lib/highcharts-9.3.1/modules/boost.js"></script>
+<script src="lib/highchart-binding-0.9.4/highchart.js"></script>
+
+</head>
+<body>
+<!-- htmlwidget-container-begin -->
+<div id="htmlwidget-43a680a1fcd62a0dd1ba" style="width:504px;height:504px;" class="highchart html-widget"></div>
+<!-- htmlwidget-container-end -->
+<script type="application/json" data-for="htmlwidget-43a680a1fcd62a0dd1ba">{"x":{"hc_opts":{"chart":{"reflow":true,"type":"column"},"title":{"text":"Doentes saídos dos hospitais em Portugal"},"yAxis":{"title":{"text":"Doentes saídos (Mensal)"}},"credits":{"enabled":false},"exporting":{"enabled":true},"boost":{"enabled":false},"plotOptions":{"series":{"label":{"enabled":false},"turboThreshold":0},"treemap":{"layoutAlgorithm":"squarified"}},"subtitle":{"text":"Fonte: Ministério da Saúde"},"xAxis":{"categories":["Jan 2015","Feb 2015","Mar 2015","Apr 2015","May 2015","Jun 2015","Jul 2015","Aug 2015","Sep 2015","Oct 2015","Nov 2015","Dec 2015","Jan 2016","Feb 2016","Mar 2016","Apr 2016","May 2016","Jun 2016","Jul 2016","Aug 2016","Sep 2016","Oct 2016","Nov 2016","Dec 2016","Jan 2017","Feb 2017","Mar 2017","Apr 2017","May 2017","Jun 2017","Jul 2017","Aug 2017","Sep 2017","Oct 2017","Nov 2017","Dec 2017","Jan 2018","Feb 2018","Mar 2018","Apr 2018","May 2018","Jun 2018","Jul 2018","Aug 2018","Sep 2018","Oct 2018","Nov 2018","Dec 2018","Jan 2019","Feb 2019","Mar 2019","Apr 2019","May 2019","Jun 2019","Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020","Jul 2020","Aug 2020","Sep 2020","Oct 2020","Nov 2020","Dec 2020","Jan 2021","Feb 2021","Mar 2021","Apr 2021","May 2021","Jun 2021","Jul 2021","Aug 2021","Sep 2021","Oct 2021","Nov 2021","Dec 2021","Jan 2022"]},"series":[{"data":[68039,65060,69839,65789,66218,61361,67184,57593,63094,68273,64367,66666,65216,64404,70500,65112,67021,64980,64556,61001,64918,63814,64665,67118,69830,63649,71400,61120,63657,63628,61408,59164,58699,64585,64385,62557,68443,62524,67724,62477,62570,62014,61777,59686,57055,62054,70451,60853,67098,61724,64744,62759,66344,57714,62270,58483,78804,66413,63487,65220,66864,62290,52255,38337,45348,48559,56004,55632,54874,58305,55007,55383,53606,49876,58396,58316,60994,63041,61207,56572,58485,60540,60738,60135,55868],"name":"Doentes saídos","color":"#e6550d"}]},"theme":{"colors":["#d35400","#2980b9","#2ecc71","#f1c40f","#2c3e50","#7f8c8d"],"chart":{"style":{"fontFamily":"Roboto","color":"#666666"}},"title":{"align":"left","style":{"fontFamily":"Roboto Condensed","fontWeight":"bold"}},"subtitle":{"align":"left","style":{"fontFamily":"Roboto Condensed"}},"legend":{"align":"right","verticalAlign":"bottom"},"xAxis":{"gridLineWidth":1,"gridLineColor":"#F3F3F3","lineColor":"#F3F3F3","minorGridLineColor":"#F3F3F3","tickColor":"#F3F3F3","tickWidth":1},"yAxis":{"gridLineColor":"#F3F3F3","lineColor":"#F3F3F3","minorGridLineColor":"#F3F3F3","tickColor":"#F3F3F3","tickWidth":1},"plotOptions":{"line":{"marker":{"enabled":false}},"spline":{"marker":{"enabled":false}},"area":{"marker":{"enabled":false}},"areaspline":{"marker":{"enabled":false}},"arearange":{"marker":{"enabled":false}},"bubble":{"maxSize":"10%"}}},"conf_opts":{"global":{"Date":null,"VMLRadialGradientURL":"http =//code.highcharts.com/list(version)/gfx/vml-radial-gradient.png","canvasToolsURL":"http =//code.highcharts.com/list(version)/modules/canvas-tools.js","getTimezoneOffset":null,"timezoneOffset":0,"useUTC":true},"lang":{"contextButtonTitle":"Chart context menu","decimalPoint":".","downloadCSV":"Download CSV","downloadJPEG":"Download JPEG image","downloadPDF":"Download PDF document","downloadPNG":"Download PNG image","downloadSVG":"Download SVG vector image","downloadXLS":"Download XLS","drillUpText":"◁ Back to {series.name}","exitFullscreen":"Exit from full screen","exportData":{"annotationHeader":"Annotations","categoryDatetimeHeader":"DateTime","categoryHeader":"Category"},"hideData":"Hide data table","invalidDate":null,"loading":"Loading...","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"noData":"No data to display","numericSymbolMagnitude":1000,"numericSymbols":["k","M","G","T","P","E"],"printChart":"Print chart","resetZoom":"Reset zoom","resetZoomTitle":"Reset zoom level 1:1","shortMonths":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"shortWeekdays":["Sat","Sun","Mon","Tue","Wed","Thu","Fri"],"thousandsSep":" ","viewData":"View data table","viewFullscreen":"View in full screen","weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]}},"type":"chart","fonts":["Roboto","Roboto+Condensed"],"debug":false},"evals":[],"jsHooks":[]}</script>
+<!-- htmlwidget-sizing-policy-base64 PHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9odG1sd2lkZ2V0LXNpemluZyIgZGF0YS1mb3I9Imh0bWx3aWRnZXQtNDNhNjgwYTFmY2Q2MmEwZGQxYmEiPnsidmlld2VyIjp7IndpZHRoIjoiMTAwJSIsImhlaWdodCI6MzUwLCJwYWRkaW5nIjowLCJmaWxsIjp0cnVlfSwiYnJvd3NlciI6eyJ3aWR0aCI6IjEwMCUiLCJoZWlnaHQiOjUwMCwicGFkZGluZyI6MCwiZmlsbCI6dHJ1ZX19PC9zY3JpcHQ+ -->
+</body>
+</html>
